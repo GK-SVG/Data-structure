@@ -72,8 +72,20 @@ void insertspenode()
         t=t->link;
         i++;
     }
-    temp->link=t->link;
-    t->link=temp;
+    if(pos==1)
+    {
+        while (t->link!=start)
+            t=t->link;
+        temp->link=start;
+        start=temp;
+        t->link=start;
+    }
+    else
+    {
+        temp->link = t->link;
+        t->link = temp;
+    }
+
 }
 
 void deletenodelast()
@@ -98,7 +110,6 @@ void deletenodelast()
         {
             free(temp);
             start=NULL;
-            printf("\n List is empty");
         }
     }
 }
@@ -124,7 +135,6 @@ void deletenode1st()
        {
            free(temp);
            start=NULL;
-           printf("\n List is empty");
        }
     }
 }
@@ -139,7 +149,8 @@ void deletespenode()
         printf("\n List is empty");
     else {
         temp = start;
-        while (i < pos - 1) {
+        while (i < pos - 1)
+        {
             temp = temp->link;
             i++;
         }
@@ -147,7 +158,10 @@ void deletespenode()
         {
             if(temp==start)
             {
+                while(next->link!=start)
+                    next=next->link;
                 start=temp->link;
+                next->link=start;
                 free(temp);
             }
             else
@@ -161,7 +175,6 @@ void deletespenode()
         {
             free(temp);
             start=NULL;
-            printf("\n List is empty");
         }
     }
 }
