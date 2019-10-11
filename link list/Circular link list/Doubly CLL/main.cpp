@@ -205,12 +205,11 @@ void displaylist()
     else
     {
         temp=start;
-        while(temp->next!=start)
+        while(temp!=start)
         {
             printf("\n%d",temp->info);
             temp=temp->next;
         }
-        printf("\n%d",temp->info);
     }
 }
 
