@@ -1,0 +1,3 @@
+/home/gautam/CLionProjects/SortingTechniques/bubblesortWitharray/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/gautam/CLionProjects/SortingTechniques/bubblesortWitharray/cmake-build-debug/CMakeFiles/bubblesortWitharray.dir
+/home/gautam/CLionProjects/SortingTechniques/bubblesortWitharray/cmake-build-debug/CMakeFiles/edit_cache.dir
