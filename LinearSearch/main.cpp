@@ -1,3 +1,4 @@
+//linear searching source code writtwn by GAUTAM KUMAR(GK)
 #include<stdio.h>
 #include <stdlib.h>
 struct node

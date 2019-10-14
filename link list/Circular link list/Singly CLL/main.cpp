@@ -186,12 +186,11 @@ void display()
     else
     {
         temp=start;
-        while (temp->link!=start)
+        while (temp->!=start)
         {
             printf("\n%d",temp->info);
             temp=temp->link;
-        }
-        printf("\n%d",temp->info);
+        } 
     }
 }
 

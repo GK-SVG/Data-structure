@@ -138,12 +138,11 @@ void displaylist()
     else
     {
         temp=start;
-        while(temp->next!=NULL)
+        while(temp!=NULL)
         {
             printf("\n%d",temp->info);
             temp=temp->next;
         }
-        printf("\n%d",temp->info);
     }
 }
 
