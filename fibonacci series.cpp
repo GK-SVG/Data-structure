@@ -1,3 +1,5 @@
+/* fibonacci seris is special seris in evry element is sum 
+of last element*/
 #include<iostream>
 using namespace std;
 int fib(int);
