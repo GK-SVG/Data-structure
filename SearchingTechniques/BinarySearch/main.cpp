@@ -1,4 +1,4 @@
-// C program to implement Bubble Sort on singly linked list
+// C program to implement Bubble Sort on singly linked list written by gautam777
 #include<stdio.h>
 #include<stdlib.h>
 
