@@ -1,3 +1,4 @@
+// buble sort programe empliment with array Written by GAUTAM777
 #include <stdio.h>
 
 void swap(int *xp, int *yp)
