@@ -1,3 +1,4 @@
+// selection sort written by gautam 
 #include <stdio.h>
 int min(int a[],int k,int n)
 {
