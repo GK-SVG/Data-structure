@@ -16,7 +16,7 @@ void towerOfHanoi(int n, char l, char r, char m)
 int main()
 {
 	int n;
-	printf("\n enter no of disks:\n");
+	printf("\n ENTER NO OF DISk :\n");
 	scanf("%d",&n); /* Number of disks*/
 	towerOfHanoi(n, 'A', 'C', 'B'); /* A, B and C are names of rods*/
 	return 0;
